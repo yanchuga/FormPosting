@@ -22,7 +22,6 @@ To run this project:
 ```
 $ clone the github repo
 $ sudo apt install nodejs
-$ run php artisan serve
 $ create ENV file cp .env.example .env
 $ get the website working on localhost
 $ generae encryption key: php artisan key:generate
@@ -30,6 +29,8 @@ $ install mysql and create user
 $ create an empty database
 $ set the DB connection: port, url, user, pass in env file
 $ make migration: php artisan migrate
-$ run the app: php artisan serve
+$ run the app: php artisan serve  
 
-Now you get the main page with menu and FORM on Review item of menu
+Now follow http://127.0.0.1:8000  
+
+You see the main page with menu and FORM on Review item of menu
